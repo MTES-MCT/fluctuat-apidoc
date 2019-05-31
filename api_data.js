@@ -78,7 +78,7 @@ define({ "api": [
             "group": "Success 200",
             "type": "OrderInfo",
             "optional": false,
-            "field": "order",
+            "field": "orderInfo",
             "description": "<p>Les informations préalables de la lettre de voiture.</p>"
           }
         ]
@@ -86,7 +86,7 @@ define({ "api": [
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"code\": \"LVDEMO\",\n  \"owner\": \"email@example.com\",\n  \"orderInfo: {\n       \"customer\": {},\n       \"sender\": {},\n       \"receiver\": {},\n       \"middleman\": {\n       \"isBroker\": true\n    },\n    \"transporter\": {},\n    \"ship\": {},\n    \"originInfo\": {\n    },\n    \"destinationInfo\": {\n    },\n    \"merchandise\": {\n    },\n   \"sentAt\": \"2019-05-27T15:15:00.491Z\"\n  }\n}",
+          "content": "HTTP/1.1 200 OK\n{\n  \"code\": \"LVDEMO\",\n  \"owner\": \"email@example.com\",\n  \"orderInfo\": {\n       \"customer\": {},\n       \"sender\": {},\n       \"receiver\": {},\n       \"middleman\": {\n       \"isBroker\": true\n    },\n    \"transporter\": {},\n    \"ship\": {},\n    \"originInfo\": {\n    },\n    \"destinationInfo\": {\n    },\n    \"merchandise\": {\n    },\n   \"sentAt\": \"2019-05-27T15:15:00.491Z\"\n  }\n}",
           "type": "json"
         }
       ]
